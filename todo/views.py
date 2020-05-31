@@ -5,8 +5,8 @@ from django.views.decorators.csrf import csrf_exempt
 from .forms import TodoForm
 import json
 
-
-
+def index(request):
+    return render(request, 'todo/list.html')
 
 def todo_fetch(request):
     """

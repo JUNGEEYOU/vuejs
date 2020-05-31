@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/vuejs.iml" filepath="$PROJECT_DIR$/.idea/vuejs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/vuejs.iml" filepath="$PROJECT_DIR$/.idea/vuejs.iml" />
     </modules>
   </component>
 </project>

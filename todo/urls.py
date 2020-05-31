@@ -4,8 +4,10 @@ from django.views.decorators.http import require_POST
 from .forms import TodoForm
 
 urlpatterns = [
+    path('', index, name='index'),
     path('fetch/', todo_fetch, name='fetch'),
     path('save/', todo_save, name='save'),
+
 ]
 
 @csrf_exempt
